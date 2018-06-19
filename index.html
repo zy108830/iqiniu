@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>iqiniu</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.5.0/hint.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+    <script type="text/javascript" src="js/dmuploader.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div class="backdrop"></div>
+<div class="head">
+    <p class="title">上传文件到七牛云</p>
+</div>
+<div class="main">
+    <div class="upload-area">
+        <img class="upload-icon" src="./images/upload.png" alt="">
+        <input class="upload-select" type="file" name="files[]" multiple="multiple" title="Click to add Files">
+    </div>
+    <div class="uploaded-area">
+        <ul class="uploaded-list">
+
+        </ul>
+    </div>
+    <div id="uploaded-item-wrapper">
+        <li>
+            <span class="file_name"></span>
+            <span class="file_size"></span>
+            <span class="file_progress"></span>
+            <span class="file_message"></span>
+            <span class="file_link" aria-label="复制成功"><a href="#">复制链接</a></span>
+        </li>
+    </div>
+</div>
+<div class="footer">
+</div>
+</body>
+</html>

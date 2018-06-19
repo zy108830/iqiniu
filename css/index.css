@@ -1,0 +1,104 @@
+[class*=hint--]:after {
+    padding: 4px 4px;
+    font-size: 8px;
+    border-radius: 3px;
+}
+.backdrop {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+.head{
+    margin: 30px 0;
+}
+.title {
+    text-align: center;
+    font-family: "Heiti SC";
+}
+
+.upload-area {
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    border-radius: 3px;
+    outline: 2px dashed #aaaaaa;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.upload-icon {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.copy-link{
+    width: 10px;
+    height: auto;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.upload-select{
+    background: red;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.uploaded-area {
+    width: 50%;
+    margin-left: 25%;
+    min-height: 100px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #baacac;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.uploaded-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.uploaded-list li {
+    background-color: #f0f0f0;
+    border: 1px solid #cfdbde;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 0;
+    line-height: 20px;
+    border-radius: 3px;
+}
+
+.progress {
+    background-color: green;
+    height: 15px;
+    margin-top: 2px;
+    border-radius: 7px;
+}
+
+.uploaded-list li:last-child {
+    margin-bottom: 0;
+}
+
+#uploaded-item-wrapper {
+    display: none;
+}
+
+.uploaded-list li span {
+    flex: 0 0 20%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 10px;
+}

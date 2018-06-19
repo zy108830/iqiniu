@@ -1,0 +1,9 @@
+{
+  "name": "iqiniu",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "dropzone": "^5.2.0",
+    "electron": "^1.7.9"
+  }
+}
